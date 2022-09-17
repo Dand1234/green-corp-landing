@@ -49,6 +49,8 @@ button {
     width: 500px;
 }
 .about__sun-image {
+    display: flex;
+    align-items: flex-start;
     width: 100px;
     height: 100px;
 }
