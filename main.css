@@ -70,7 +70,7 @@ button {
 .about__info {
     max-width: 550px;
 }
-.form{
+.form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,28 +80,28 @@ button {
     padding-bottom: 115px;
     text-align: center;
 }
-.form h1{
+.form h1 {
     font-size: 48px;
 }
-.form p{
+.form p {
     font-size: 18px;
     opacity: 0.65;
 }
-.form__container{
+.form__container {
     width: 550px;
 }
-.form__group{
+.form__group {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-.form label{
+.form label {
     font-size:18px;
     font-weight: 600;
     margin-bottom: 10px;
     margin-top: 15px;
 }
-.form input{
+.form input {
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -109,7 +109,7 @@ button {
     border: none;
     border-radius: 15px;
 }
-.form select{
+.form select {
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -117,7 +117,7 @@ button {
     border: none;
     border-radius: 15px;
 }
-.form__submit{
+.form__submit {
     font-size: 18px;
     font-weight: 600;
     margin-top: 40px;
@@ -128,33 +128,33 @@ input {
 select {
     appearance: none;
 }
-button:hover{
+button:hover {
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 }
-footer{
+footer {
     padding: 90px 20px;
     font-size: 16px;
     font-weight: 600;
 }
-.footer__container{
+.footer__container {
     display: flex;
     justify-content: center;
 }
-.footer__copyright{
+.footer__copyright {
     margin-top: 40px;
     text-align: center;
     opacity: 0.5;
 }
-.footer__group{
+.footer__group {
     margin-right: 80px;
 }
-.footer__group h3{
+.footer__group h3 {
     font-size: 16px;
     opacity: 0.7;
     margin-top: 30px;
 }
-.footer__links a{
+.footer__links a {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
