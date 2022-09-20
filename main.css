@@ -49,10 +49,11 @@ button {
     width: 500px;
 }
 .about__sun-image {
-    display: flex;
-    align-items: flex-start;
+    position: relative;
+    bottom: 270px;
     width: 100px;
     height: 100px;
+    animation: rotation 10s linear  infinite;
 }
 .about h1 {
     font-size: 70px;
@@ -160,4 +161,8 @@ footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+}
+@keyframes rotation{
+    0% {transform: rotate (0deg)}
+    100% {transform: rotate(360deg);}
 }
