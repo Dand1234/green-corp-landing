@@ -1,9 +1,13 @@
 header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 25px;
     padding: 20px;
+    z-index: 1;
   }
 body {
     font-family: 'Raleway', sans-serif;
