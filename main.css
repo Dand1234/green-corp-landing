@@ -41,6 +41,7 @@ button {
     transition: background-color 0.3s ease-in;
 }
 .about {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -55,7 +56,6 @@ button {
 }
 .about__sun-image {
     position: absolute;
-    bottom: 270px;
     width: 100px;
     height: 100px;
     animation: rotation 10s linear  infinite;
@@ -387,4 +387,10 @@ h3 .features__box {
 .promo__text button i {
     font-size: 15px;
     margin-left: 5px;
+}
+.orb-canvas {
+    position:absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
